@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Kanit&family=Roboto+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headerItem">
+        <div class="heading">
+            <h1>Rock Paper Scissors Game</h1>
+        </div>
+    </header>
+
+    <div class="scoreBoard">
+        <div class="badge" id="user">User</div>
+        <div class="badge" id="comp">Comp</div>
+        <span id="userScore">0</span> : <span id="compScore">0</span>
+    </div>
+
+    <div class="result">
+        <p>Your results!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="scissors.png" alt="">
+        </div>
+    </div>
+
+    <p id="actionMessage">"Make your move!"</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

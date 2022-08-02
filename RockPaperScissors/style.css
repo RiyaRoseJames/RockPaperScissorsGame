@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: rgb(28, 28, 40);
+}
+
+header{
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(28, 28, 40);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scoreBoard{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge{
+    background-color: rgb(221, 16, 16);
+    font-size: 18px;
+    padding: 5px 7px;
+}
+
+#user{
+    position: absolute;
+    top: 18px;
+    left: -28px;
+}
+#comp{
+    position: absolute;
+    top: 18px;
+    right: -30px;
+}
+
+.result{
+    color: white;
+    text-align: center;
+}
+.result p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.choices{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    size: 8px;
+    margin: 0px 20px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background: black;
+}
+
+#actionMessage{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.greenGlow{
+    background: 4px solid rgb(0, 240, 0);
+    box-shadow: 0 0 10px rgb(2, 212, 2);
+}
+.redGlow{
+    background: 4px solid rgb(253, 1, 1);
+    box-shadow: 0 0 10px rgb(219, 3, 3);
+}
+.greyGlow{
+    background: 4px solid rgb(126, 125, 125);
+    box-shadow: 0 0 10px rgb(102, 97, 97);
+}
+
